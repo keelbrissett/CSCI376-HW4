@@ -1,20 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Walter+Turncoat);
+
 body {
     font-family: 'Segoe UI', sans-serif;
-    background: #f2f2f2;
+    background: url(images/classroom.jpg);
+    backdrop-filter: blur(10px);
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    font-family: "Walter Turncoat";
   }
   
   .quiz-container {
-    background: #fff;
+    background: url(images/chalkboard.jpg);
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 90%;
     max-width: 500px;
+    font-family: "Walter Turncoat";
+    color: #fff
   }
   
   h1 {
@@ -24,6 +31,7 @@ body {
   #question {
     font-size: 1.2rem;
     margin-bottom: 1rem;
+    text-align: center;
   }
   
   .btn-grid {
@@ -39,6 +47,7 @@ body {
     border-radius: 6px;
     cursor: pointer;
     transition: background 0.3s;
+    font-family: "Walter Turncoat";
   }
   
   .btn:hover {
@@ -46,6 +55,13 @@ body {
   }
   
   .next-btn {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+  }
+
+  .hint-btn {
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
